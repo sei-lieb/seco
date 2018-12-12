@@ -1,0 +1,8 @@
+AC_INIT([ffttest], [0.1], [])
+AM_INIT_AUTOMAKE
+AC_PROG_CXX
+AC_PROG_CXX_C_O
+CXXFLAGS+=" -std=gnu++11"
+LDFLAGS=" -lfftw3"
+AC_CONFIG_FILES([Makefile])
+AC_OUTPUT
