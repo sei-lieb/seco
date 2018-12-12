@@ -3043,7 +3043,7 @@ ac_link='$CC -o conftest$ac_exeext $CFLAGS $CPPFLAGS $LDFLAGS conftest.$ac_ext $
 ac_compiler_gnu=$ac_cv_c_compiler_gnu
 
 CXXFLAGS+=" -std=gnu++11"
-LDFLAGS=" -lfftw3"
+LDFLAGS=" -lfftw3 -lfftw3-3"
 ac_config_files="$ac_config_files Makefile"
 
 cat >confcache <<\_ACEOF
