@@ -1,4 +1,4 @@
-install: get-deps
+install: make get-deps
 language: cpp
 git:
   quiet: true
