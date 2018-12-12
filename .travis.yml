@@ -1,4 +1,4 @@
-install: make get-deps
+before_install: sudo apt-get update && sudo apt-get -y install fftw3-dev
 language: cpp
 git:
   quiet: true
