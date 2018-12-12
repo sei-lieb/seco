@@ -1,4 +1,4 @@
-before_install: apt-get -y install fftw3 fftw3-dev
+before_install: sudo apt-get -y install fftw3 fftw3-dev
 language: cpp
 git:
   quiet: true
