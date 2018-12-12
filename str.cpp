@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
+extern "C" {
 #include <fftw3.h>
+}
 #include <complex>
 #include <vector>
 using cmpx = std::complex<double>;
